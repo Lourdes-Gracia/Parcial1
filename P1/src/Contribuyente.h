@@ -15,6 +15,8 @@ typedef struct
 	char lastName[20];
 	int cuil;
 	int isEmpty;
+
+
 }sContribuyente;
 
 #endif /* ARRAYEMPLOYEES_H_ */

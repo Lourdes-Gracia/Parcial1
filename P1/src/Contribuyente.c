@@ -51,7 +51,7 @@ int initContribuyentes(sContribuyente* list, int len)
  * No hay contribuyenes añadidos
  */
 
-int noContribuyentes (int ready)
+int noContribuyente (int ready)
 {
 	if(!(ready))
 	{
@@ -200,7 +200,7 @@ int modifyContribuyente (sContribuyente* list, int len)
 					strcpy(list[index].lastName, auxCont.lastName);
 					break;
 				case 3:
-					list[index].cuil = inputCuil("nuevo cuil");
+					list[index].cuil = inputCuil("Nuevo cuil");
 					break;
 				default:
 					printf("No se realizaron cambios.\n\n");

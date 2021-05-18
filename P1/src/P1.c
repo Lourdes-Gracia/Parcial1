@@ -49,7 +49,8 @@ int main(void) {
 				break;
 			case 2:
 				if(!(noContribuyente(readyStep1)))
-				{
+
+			{
 					modifyContribuyente(contribuyentes, LEN);
 				}
 				break;
