@@ -25,6 +25,7 @@ int invalidList(sContribuyente* list, int len);
 int initContribuyentes(sContribuyente* list, int len);
 int noContribuyente (int ready);
 int menue(char message[350]);
+int menueRecaudacion(char message[350]);
 int findContribuyenteById(sContribuyente* list, int len, int id);
 int askData (sContribuyente* list, int len, int id);
 int addContribuyentes (sContribuyente* list, int len, int id, char name[], char lastName [], int cuil);
